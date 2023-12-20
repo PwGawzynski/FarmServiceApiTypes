@@ -3,20 +3,16 @@ import { CreateAddressReqI } from '../Address/Requests';
 import { Theme } from '../Account/Constants';
 
 import { UserRole } from './Enums';
+import { PersonalDataBase } from '../UserPersonalData/Responses';
+import { AddressResponseBase } from '../Address/Ressponses';
 
 /**
  * Interface that specify req object when register new user call
  */
 export interface CreateUserReqI {
-  /**
-   * This is because user can log in via nip / phone number
-   */
-  userLoginIdentificator?: string;
   email: string;
-  userPersonalData: CreatUserPersonalDataReqI;
-  addressData: CreateAddressReqI;
-  accountData: {
-    theme: Theme;
-  };
-  userRole: UserRole;
+  password: string;
+  role: UserRole;
+  personal_data: PersonalDataBase;
+  address: AddressResponseBase;
 }
