@@ -1,7 +1,3 @@
-import { CreatUserPersonalDataReqI } from '../UserPersonalData/Requests';
-import { CreateAddressReqI } from '../Address/Requests';
-import { Theme } from '../Account/Constants';
-
 import { UserRole } from './Enums';
 import { PersonalDataBase } from '../UserPersonalData/Responses';
 import { AddressResponseBase } from '../Address/Ressponses';
