@@ -3,5 +3,5 @@ export interface PersonalDataBase {
 
   surname: string;
 
-  phoneNumber: string;
+  phone_number: string;
 }
