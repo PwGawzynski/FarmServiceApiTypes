@@ -6,7 +6,7 @@ import { AccountResponseBase } from '../Account/Ressponses';
 export interface UserResponseBase {
   email: string;
   role: UserRole;
-  personalData: PersonalDataBase;
+  personal_data: PersonalDataBase;
 
   address: AddressResponseBase;
   account: AccountResponseBase;
