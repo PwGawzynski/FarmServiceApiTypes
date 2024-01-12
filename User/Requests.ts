@@ -12,3 +12,4 @@ export interface CreateUserReqI {
   personal_data: PersonalDataBase;
   address: AddressResponseBase;
 }
+export type UserResetPasswordReqI = Pick<CreateUserReqI, 'email'>;
