@@ -4,6 +4,6 @@ export interface CreateCompanyReqI {
   name: string;
   email: string;
   NIP: string;
-  PhoneNumber: string;
+  phoneNumber: string;
   address: CreateAddressReqI;
 }
