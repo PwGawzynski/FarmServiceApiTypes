@@ -1,5 +1,6 @@
 export class UserPersonalDataConstants {
   private static readonly BASE_MIN_LEN = 1;
+
   static readonly NAME_MIN_LEN = UserPersonalDataConstants.BASE_MIN_LEN;
 
   static readonly NAME_MAX_LEN = 70;
