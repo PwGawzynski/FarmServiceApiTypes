@@ -5,5 +5,6 @@ export type ClientResponseBase = {
   user: Pick<UserResponseBase, 'personal_data' | 'address' | 'role'> & {
     id: string;
   };
+
   company: CompanyResponseBase;
 };
