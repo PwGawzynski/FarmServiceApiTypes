@@ -1,3 +1,5 @@
 import { CreateClientsCompanyReqI } from './Requests';
 
-export type ClientsCompanyResponseBase = CreateClientsCompanyReqI;
+export type ClientsCompanyResponseBase = {
+  id: string;
+} & CreateClientsCompanyReqI;

@@ -8,3 +8,6 @@ export interface CreateClientsCompanyReqI {
   phoneNumber: string;
   address: CreateAddressReqI;
 }
+export type UpdateClientsCompanyReqI = Partial<CreateClientsCompanyReqI> & {
+  id: string;
+};
