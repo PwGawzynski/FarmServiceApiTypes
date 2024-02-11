@@ -7,7 +7,7 @@ export class CompanyConstants {
 
   static readonly MAX_EMAIL_LENGTH = 350;
 
-  static readonly MIN_NIP_LENGTH = 1;
+  static readonly MIN_NIP_LENGTH = 10;
 
   static readonly MAX_NIP_LENGTH = 10;
 
