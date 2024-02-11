@@ -1,9 +1,9 @@
 import { UserResponseBase } from '../User/Responses';
-import { CompanyResponseBase } from '../Company/Responses';
+import { ClientsCompanyResponseBase } from '../ClientsCompany/Responses';
 
 export type ClientResponseBase = {
   id: string;
   email: string;
   user: Pick<UserResponseBase, 'personal_data' | 'address' | 'role'>;
-  company: CompanyResponseBase | undefined;
+  company: ClientsCompanyResponseBase | undefined;
 };
