@@ -9,5 +9,5 @@ export interface CreateClientsCompanyReqI {
   address: CreateAddressReqI;
 }
 export type UpdateClientsCompanyReqI = Partial<CreateClientsCompanyReqI> & {
-  id: string;
+  company: string;
 };
