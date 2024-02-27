@@ -13,3 +13,6 @@ export interface WorkerResponseBase {
 
   email: string;
 }
+export interface WorkerIdResponseBase extends WorkerResponseBase {
+  id: string;
+}
