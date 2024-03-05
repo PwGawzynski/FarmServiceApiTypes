@@ -3,7 +3,7 @@ import { Position, Status } from './Enums';
 import { AddressResponseBase } from '../Address/Ressponses';
 
 export interface WorkerResponseBase {
-  is: string;
+  id: string;
 
   personalData: PersonalDataBase;
 
