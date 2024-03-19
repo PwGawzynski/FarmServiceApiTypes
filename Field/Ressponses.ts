@@ -2,6 +2,7 @@ import { FieldAddressResponseBase } from '../FiledAddress/Ressponses';
 
 export interface FieldResponseBase {
   id: string;
+  nameLabel: string;
   polishSystemId: string;
 
   area: number;
