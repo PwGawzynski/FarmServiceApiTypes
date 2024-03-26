@@ -6,7 +6,7 @@ export interface CreateFieldReqI {
 
   area: number;
 
-  dateOfCollectionData: Date;
+  dateOfCollectionData?: Date;
 
   address: CreateFieldAddressReqI;
 
