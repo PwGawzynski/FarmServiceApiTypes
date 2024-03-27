@@ -12,3 +12,17 @@ export interface CreateFieldReqI {
 
   client?: string;
 }
+
+export interface updateFieldReqI {
+  field: string;
+  nameLabel: string;
+  polishSystemId: string;
+
+  area: number;
+
+  dateOfCollectionData?: Date;
+
+  address: CreateFieldAddressReqI;
+
+  client?: string;
+}
