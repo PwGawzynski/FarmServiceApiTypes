@@ -2,7 +2,7 @@ import { OrderStatus } from './Enums';
 
 export interface OrderResponseBase {
   id: string;
-
+  clientId: string;
   name: string;
 
   status: OrderStatus;
