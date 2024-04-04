@@ -3,7 +3,7 @@ export interface CreateOrderReqI {
 
   performanceDate: Date;
 
-  additionalInfo: string;
+  additionalInfo?: string;
 
   client: string;
 }
