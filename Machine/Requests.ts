@@ -3,6 +3,12 @@ export interface CreateMachineReqI {
   licensePlate: string;
 }
 
+export interface UpdateMachineReqI {
+  machine: string;
+  name: string;
+  licensePlate: string;
+}
+
 export interface AssignMachinesReqI {
   taskId: string;
 
