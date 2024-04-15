@@ -18,3 +18,5 @@ export interface TaskResponseBase {
 
   machineId: string;
 }
+
+export type TaskResponseCollection = Array<TaskResponseBase>;
