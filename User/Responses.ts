@@ -7,7 +7,7 @@ import { CompanyResponseBase } from '../Company/Responses';
 export interface UserResponseBase {
   email: string;
   role: UserRole;
-  personal_data: PersonalDataBase;
+  personalData: PersonalDataBase;
 
   address: AddressResponseBase;
   account: AccountResponseBase;

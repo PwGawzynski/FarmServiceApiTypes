@@ -9,7 +9,7 @@ export interface CreateUserReqI {
   email: string;
   password: string;
   role: UserRole;
-  personal_data: PersonalDataBase;
+  personalData: PersonalDataBase;
   address: AddressResponseBase;
 }
 
