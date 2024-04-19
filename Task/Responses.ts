@@ -10,6 +10,8 @@ export interface TaskResponseBase {
 
   type: TaskType;
 
+  performanceDate: Date;
+
   createdAt: Date;
 
   openedAt?: Date;
