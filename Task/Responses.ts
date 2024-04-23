@@ -14,6 +14,8 @@ export interface TaskResponseBase {
 
   createdAt: Date;
 
+  lastPausedAt: Date;
+
   openedAt?: Date;
 
   closedAt?: Date;
