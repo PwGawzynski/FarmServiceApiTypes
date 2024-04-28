@@ -2,5 +2,7 @@ export interface TaskSessionResponseBase {
   openedAt: Date;
   closedAt?: Date | null;
   onOpenWorkerLatitude?: string;
-  onopenWorkerLongitude?: string;
+  onOpenWorkerLongitude?: string;
+  onCloseWorkerLatitude?: string;
+  onCloseWorkerLongitude?: string;
 }

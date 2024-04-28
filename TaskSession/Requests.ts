@@ -1,4 +1,4 @@
 export interface TaskSessionCreateRequest {
-  onOpenWorkerLatitude: string;
-  onopenWorkerLongitude: string;
+  workerLatitude: string;
+  workerLongitude: string;
 }
