@@ -1,4 +1,5 @@
 import { TaskSessionResponseBase } from '../TaskSession/Responses';
+import { ActivityType } from './Enums';
 
 export interface ActivityResponseBase {
   session: TaskSessionResponseBase;
@@ -8,4 +9,5 @@ export interface ActivityResponseBase {
   workerName: string;
   workerSurname: string;
   fieldName: string;
+  type: ActivityType;
 }
