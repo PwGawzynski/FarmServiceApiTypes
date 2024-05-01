@@ -15,4 +15,5 @@ export interface ActivityResponseBase {
     nameLabel: string;
   };
   type: ActivityType;
+  actionDate: Date;
 }
