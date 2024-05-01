@@ -1,13 +1,18 @@
-import { TaskSessionResponseBase } from '../TaskSession/Responses';
 import { ActivityType } from './Enums';
+import { UserRole } from '../User/Enums';
 
 export interface ActivityResponseBase {
-  session: TaskSessionResponseBase;
-  workerId: string;
-  taskId: string;
+  sessionId: string;
   fieldId: string;
-  workerName: string;
-  workerSurname: string;
-  fieldName: string;
+  taskId: string;
+  causerId: string;
+  causerShortcutData: {
+    name: string;
+    surname: string;
+    role: UserRole;
+  };
+  fieldShortcutData: {
+    nameLabel: string;
+  };
   type: ActivityType;
 }
