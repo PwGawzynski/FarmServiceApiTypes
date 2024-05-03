@@ -11,7 +11,7 @@ abstract class OrderConstants {
 
   static readonly MIN_PRICE_PER_UNIT_SCALE = 2;
 
-  static readonly MIN_PRICE_PER_UNIT = BASE_MIN_LEN;
+  static readonly MIN_PRICE_PER_UNIT = 0;
 
   static readonly MAX_PRICE_PER_UNIT = 1000000;
 }
