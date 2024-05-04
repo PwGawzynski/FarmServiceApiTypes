@@ -14,4 +14,6 @@ export interface OrderResponseBase {
   openedAt?: Date;
 
   additionalInfo: string;
+
+  totalArea?: string;
 }
