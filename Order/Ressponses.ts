@@ -1,4 +1,5 @@
 import { OrderStatus } from './Enums';
+import { OrderPriceResponseBase } from '../OrderPricing/Responses';
 
 export interface OrderResponseBase {
   id: string;
@@ -16,4 +17,6 @@ export interface OrderResponseBase {
   additionalInfo: string;
 
   totalArea?: string;
+
+  pricing?: OrderPriceResponseBase;
 }
