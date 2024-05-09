@@ -19,5 +19,5 @@ export interface OrderResponseBase {
 
   totalArea?: string;
 
-  pricing?: OrderPriceResponseBase | undefined | never[];
+  pricing?: OrderPriceResponseBase | undefined;
 }
