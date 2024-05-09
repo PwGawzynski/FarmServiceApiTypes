@@ -1,4 +1,5 @@
 import { OrderStatus } from './Enums';
+import { TaskType } from '../Task/Enums';
 import { OrderPriceResponseBase } from '../OrderPricing/Responses';
 
 export interface OrderResponseBase {
@@ -18,5 +19,5 @@ export interface OrderResponseBase {
 
   totalArea?: string;
 
-  pricing?: OrderPriceResponseBase;
+  pricing?: OrderPriceResponseBase | undefined | never[];
 }
