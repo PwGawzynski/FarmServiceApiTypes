@@ -3,6 +3,6 @@ import { TaskType } from '../Task/Enums';
 export interface CreateOrderPriceReqI {
   order: string;
   taskType: TaskType;
-  price: number;
+  prices: Map<keyof typeof TaskType, number>;
   tax: number;
 }
