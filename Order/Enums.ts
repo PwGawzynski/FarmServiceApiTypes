@@ -3,6 +3,7 @@
  */
 export enum OrderStatus {
   Added,
+  TaskAssigned,
   Processing,
   Done,
 }
