@@ -5,6 +5,7 @@ export enum OrderStatus {
   Added,
   TaskAssigned,
   Processing,
+  InAccounting,
   Done,
 }
 
