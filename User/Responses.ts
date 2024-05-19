@@ -18,3 +18,9 @@ export interface WorkerIdResponseI {
   id: string;
   companyId: string;
 }
+
+export interface GoogleAuthResponseI {
+  email: string;
+  accessToken?: string;
+  refreshToken?: string;
+}
