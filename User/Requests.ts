@@ -7,7 +7,7 @@ import { AddressResponseBase } from '../Address/Ressponses';
  */
 export interface CreateUserReqI {
   email: string;
-  password: string;
+  password?: string;
   role: UserRole;
   personalData: PersonalDataBase;
   address: AddressResponseBase;
