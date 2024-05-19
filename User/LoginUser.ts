@@ -14,3 +14,9 @@ export interface IdentityAuthTokenLoginStored
 
   last_updated_refresh_token_at: Date;
 }
+
+export interface GoogleAuthResponseI {
+  email: string;
+  access_token?: string;
+  refresh_token?: string;
+}
