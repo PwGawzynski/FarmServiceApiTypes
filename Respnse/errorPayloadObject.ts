@@ -1,9 +1,11 @@
 export interface ErrorPayloadObject {
   message?: string;
-  eCode: ErrorCodes;
+  code: ErrorCodes;
 }
 
 export enum ErrorCodes {
+  DefaultHttpException = 0,
+
   AlreadyExist,
 
   UnknownServerError,
@@ -13,4 +15,6 @@ export enum ErrorCodes {
   CauserUnauthorised,
 
   BadData,
+
+  AccountNotActiveOrNotExist,
 }
