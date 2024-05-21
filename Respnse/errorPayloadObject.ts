@@ -1,6 +1,6 @@
 export interface ErrorPayloadObject {
   message?: string;
-  code: ErrorCodes;
+  eCode: ErrorCodes;
 }
 
 export enum ErrorCodes {
